@@ -1,0 +1,21 @@
+
+
+
+
+$color :#e74c3c;
+$border-raduis : 5px;
+
+
+
+button{
+     background-color: $color;
+     border: none;
+     padding: 10px 20px;
+     color: white;
+     border-radius: $border-raduis;
+     transition: background-color 0.3s ease;
+}
+
+&:hover{
+     background-color: darken($color , 10%);
+}
